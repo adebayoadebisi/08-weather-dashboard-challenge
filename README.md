@@ -3,79 +3,61 @@
 # Weather Dashboard
 
 ## Description
-This activity requires the building of a timed coding quiz with multiple-choice questions. The app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code. It will have a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.
 
-## User Story
-```
-AS A traveler
-I WANT to see the weather outlook for multiple cities
-SO THAT I can plan a trip accordingly
-```
+The Weather Dashboard is a dynamic web application that allows users to search for and view current and future weather conditions in multiple cities. Utilizing the 5 Day Weather Forecast API from OpenWeatherMap, this dashboard provides travelers with essential weather data to help plan their trips more effectively. The application features dynamically updated HTML and CSS, ensuring a responsive and intuitive user interface.
 
-## Acceptance Criteria
-- **GIVEN** a user opens the quiz,
-  - **WHEN** the user starts the quiz by clicking on the start button,
-  - **THEN** a timer should start, and the first question should appear.
+## Features
 
-- **GIVEN** a user is presented with a question,
-  - **WHEN** the user sees the question,
-  - **THEN** buttons for each possible answer should be displayed.
+- **City Search**: Users can search for cities to retrieve weather data.
+- **Current Weather**: Displays the city name, date, weather condition icons, temperature, humidity, and wind speed for the searched city.
+- **5-Day Forecast**: Shows the date, weather condition icons, temperature, and humidity for the next five days.
+- **Search History**: Saves search history in local storage, allowing users to quickly revisit previous searches and view current and future conditions for those cities.
 
-- **GIVEN** a user clicks on an answer,
-  - **WHEN** the user clicks on an answer,
-  - **THEN** the next question should appear.
+## How to Use
 
-- **GIVEN** a user clicks on an incorrect answer,
-  - **WHEN** the user clicks on an incorrect answer,
-  - **THEN** time should be subtracted from the timer.
+1. **Search for a City**: Enter a city name in the search box and click the "Search" button or press enter.
+2. **View Weather Data**: The current weather conditions and a 5-day forecast for the searched city will be displayed on the screen.
+3. **Access Search History**: Click on a city name in the search history list to quickly access weather data for that city again.
 
-- **GIVEN** a user answers all questions or the timer reaches 0,
-  - **WHEN** either condition is met,
-  - **THEN** the quiz should end.
+## Technologies Used
 
-- **GIVEN** the quiz has ended,
-  - **WHEN** the quiz is over,
-  - **THEN** the user's score should be displayed.
+- HTML
+- CSS
+- JavaScript
+- Bootstrap for styling
+- OpenWeatherMap API for weather data
 
-- **GIVEN** the quiz has ended,
-  - **WHEN** the quiz is over,
-  - **THEN** the user should be given the ability to save their initials and their score.
+Remember to replace any placeholder text with information specific to your project. If your project is hosted online, it's also helpful to include a link to the live application.
 
-## Password Generator Application
-The following images shows the Code Quiz displaying a working application.
+## Weather Dashboard Application
+The following images shows the Weather Dashboard displaying a working application.
 
-![Code Quiz: Screenshot Start Page](./assets/images/quiz-start-page.png)
+![Weather Dashboard: Screenshot Start Page](./assets/images/quiz-start-page.png)
 
-> **Note** This is a screenshot of the deployed Code Quiz Start Page.
+> **Note** This is a screenshot of the deployed Weather Dashboard Start Page.
 
-![Code Quiz: Screenshot Questions Page](./assets/images/quiz-questions.png)
+![Weather Dashboard: Screenshot Questions Page](./assets/images/quiz-questions.png)
 
-> **Note** This is a screenshot of the deployed Code Quiz Questions Page.
+> **Note** This is a screenshot of the deployed Weather Dashboard Questions Page.
 
-![Code Quiz: Screenshot Highscore Page](./assets/images/quiz-highscore.png)
+![Weather Dashboard: Functionality](./assets/images/quiz-recording.gif)
 
-> **Note** This is a screenshot of the deployed Code Quiz Highscore Page.
-
-![Code Quiz: Functionality](./assets/images/quiz-recording.gif)
-
-> **Note** This is a video of the Code Quiz showing all the required criteria.
+> **Note** This is a video of the Weather Dashboard displaying functionality.
 
 ## References
-[MDN Web Docs - Window: localStorage property](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+[MDN Web Docs on JavaScript:](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-[MDN Web Docs - JSON.parse()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse)
+[MDN Web Docs - Using Fetch for API Calls in JavaScript](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 
-[MDN Web Docs - Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
+[API Documentation | OpenWeatherMap - Documentation](https://openweathermap.org/api)
 
-[MDN Web Docs - Math.random()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
-
-[MDN Web Docs - Array.prototype.splice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+[MDN Web Docs - Date and Time](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
 
 ## License
-Licensed under the MIT License
+Licensed under [MIT License](LICENSE.md).
 
 ## GitHub Repository
-URL: https://github.com/adebayoadebisi/06-code-quiz-Challenge
+URL: https://github.com/adebayoadebisi/08-weather-dashboard-challenge
 
 ## Deployed Web Application
-URL: https://adebayoadebisi.github.io/06-code-quiz-Challenge/
+URL: https://adebayoadebisi.github.io/08-weather-dashboard-challenge/

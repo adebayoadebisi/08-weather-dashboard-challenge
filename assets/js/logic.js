@@ -43,7 +43,7 @@ $(document).ready(function () {
         searchHistory.reverse().forEach(function (searchValue) {
             var htmlHist = `
                 <div class="d-grid gap-5 mt-3 historyBtns">
-                    <button class="btn btn-primary history-btns" type="button">${searchValue}</button>
+                    <button class="btn history-btns" type="button">${searchValue}</button>
                 </div>
             `;
             $("#history").append(htmlHist);
