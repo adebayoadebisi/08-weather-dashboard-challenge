@@ -32,15 +32,15 @@ Remember to replace any placeholder text with information specific to your proje
 ## Weather Dashboard Application
 The following images shows the Weather Dashboard displaying a working application.
 
-![Weather Dashboard: Screenshot Start Page](./assets/images/quiz-start-page.png)
+![Weather Dashboard: Screenshot Start Page](./assets/images/weather-laptop.html.png)
 
 > **Note** This is a screenshot of the deployed Weather Dashboard Start Page.
 
-![Weather Dashboard: Screenshot Questions Page](./assets/images/quiz-questions.png)
+![Weather Dashboard: Screenshot Questions Page](./assets/images/weather-mobile.png)
 
 > **Note** This is a screenshot of the deployed Weather Dashboard Questions Page.
 
-![Weather Dashboard: Functionality](./assets/images/quiz-recording.gif)
+![Weather Dashboard: Functionality](./assets/images/weather-functionality.gif)
 
 > **Note** This is a video of the Weather Dashboard displaying functionality.
 
